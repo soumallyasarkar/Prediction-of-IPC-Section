@@ -108,6 +108,17 @@ The two hybrid weights should normally add up to `1.0`.
 - The project uses IPC data. Indian criminal law has changed over time, so users should confirm whether the relevant offence is governed by current legislation.
 - Language detection and translation can be inaccurate for short, ambiguous, or mixed-language input.
 - The first model download and embedding generation may take several minutes and require significant memory.
+# Future Plans
+
+A dashboard is planned as the next major extension of this project. The dashboard will provide a user-friendly interface for:
+
+- Entering crime descriptions without using the command line.
+- Viewing ranked IPC section matches, confidence scores, punishment details, and severity comparisons.
+- Submitting queries in supported Indian languages and viewing translated results.
+- Exploring IPC sections and filtering results by offense, punishment, bailability, cognizability, and court.
+- Displaying clear warnings that results are informational and should be verified by a qualified legal professional.
+
+The dashboard may be implemented as a web application backed by the existing Python search and translation modules. The current command-line interface will remain useful for development, testing, and batch experiments.
 
 ## License
 
