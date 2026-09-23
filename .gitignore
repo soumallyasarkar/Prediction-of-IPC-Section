@@ -1,0 +1,5 @@
+__pycache__/
+lid.176.bin
+ipc_embeddings_all-mpnet-base-v2.pkl
+ipc_tfidf.pkl
+.venv/**
